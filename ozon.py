@@ -52,4 +52,4 @@ data={"city": "Dushanbe",
         "mean": str(avgall)
     }}
 with open("ozon.json", "w") as f:#записываем в файл
-    json.dump(data, f, indent=2)
+    json.dump(data, f, indent=2) #indent=2 делается исключительно для визуально удобного представления данных в ozon.json, вообще говоря, это не требуется и усложняет работу с файлом
